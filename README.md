@@ -27,7 +27,14 @@ Cocok untuk latihan **Python Data Analysis** bagi pemula.
 
 ## 📂 Struktur Project
 
-AI_Project/ │ ├── analisis.py              # kode utama Python ├── requirements.txt         # daftar library ├── README.md                # dokumentasi project └── hasil_analisis_keren.xlsx (opsional: file hasil)
+AI_Project/
+├── analisis.py         
+# kode utama Python 
+├── requirements.txt         
+# daftar library 
+├──README.md 
+# dokumentasi project 
+└── hasil_analisis_keren.xlsx (opsional: file hasil)
 
 ---
 
@@ -81,9 +88,3 @@ Nilai Terendah	75
 
 Sheet: Grafik
 Diagram batang nilai siswa otomatis tampil di Excel.
-
-
----
-
-🤝 Kontribusi
-
