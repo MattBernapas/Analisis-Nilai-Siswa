@@ -1,34 +1,33 @@
 # 📊 Analisis Nilai Siswa
 
-Project ini dibuat untuk **menganalisis data nilai siswa** menggunakan Python.  
-Output project berupa **file Excel** yang berisi data lengkap, analisis ringkasan, dan grafik otomatis.  
+Project Python sederhana untuk **menganalisis data nilai siswa**.  
+Output berupa **file Excel** dengan:
+- Sheet **Data Siswa**
+- Sheet **Analisis Ringkasan**
+- Sheet **Grafik Nilai Siswa**
+
 Cocok untuk latihan **Python Data Analysis** bagi pemula.
 
 ---
 
-## ✨ Fitur Utama
-- 📋 **Input Data Siswa** → Nama, Kelas, dan Nilai
-- 🔍 **Analisis Otomatis**:
-  - Rata-rata nilai
-  - Nilai tertinggi
-  - Nilai terendah
-- 📑 **Ekspor ke Excel** dengan 3 sheet:
-  1. **Data Siswa** → berisi daftar nilai siswa
-  2. **Analisis** → ringkasan nilai rata-rata, tertinggi, terendah
-  3. **Grafik** → diagram batang perbandingan nilai siswa
+## ✨ Fitur
+- ✅ Input data siswa (Nama, Kelas, Nilai)
+- ✅ Hitung rata-rata, nilai tertinggi, nilai terendah
+- ✅ Ekspor otomatis ke Excel
+- ✅ Tambahan grafik (diagram batang) di Excel
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ Teknologi
 - [Python 3](https://www.python.org/)  
-- [pandas](https://pandas.pydata.org/) → untuk mengolah data  
-- [openpyxl](https://openpyxl.readthedocs.io/en/stable/) → untuk ekspor Excel & grafik  
+- [pandas](https://pandas.pydata.org/) – olah data  
+- [openpyxl](https://openpyxl.readthedocs.io/en/stable/) – Excel & grafik  
 
 ---
 
 ## 📂 Struktur Project
 
-AI_Project/ │ ├── analisis.py              # kode Python utama ├── requirements.txt         # daftar library yang dibutuhkan ├── README.md                # dokumentasi project └── hasil_analisis_keren.xlsx (opsional, file output)
+AI_Project/ │ ├── analisis.py              # kode utama Python ├── requirements.txt         # daftar library ├── README.md                # dokumentasi project └── hasil_analisis_keren.xlsx (opsional: file hasil)
 
 ---
 
@@ -47,32 +46,21 @@ pip install -r requirements.txt
 
 ---
 
-▶️ Cara Menjalankan
+▶️ Menjalankan Program
 
-Jalankan perintah berikut di terminal:
+Jalankan script:
 
 python analisis.py
 
-Hasil akan tersimpan di file:
-
-hasil_analisis_keren.xlsx
-
-Buka file tersebut di Microsoft Excel atau LibreOffice Calc.
-Di dalamnya terdapat:
-
-Sheet 1: Data Siswa
-
-Sheet 2: Analisis Ringkasan
-
-Sheet 3: Grafik (diagram batang nilai siswa)
-
+Output: file hasil_analisis_keren.xlsx
+Buka di Excel → lihat Data Siswa, Analisis, dan Grafik.
 
 
 ---
 
-📸 Contoh Output
+📊 Contoh Output
 
-Data Siswa
+Sheet: Data Siswa
 
 Nama	Kelas	Nilai
 
@@ -82,7 +70,7 @@ Siti	XI	75
 Rian	XI	85
 
 
-Analisis
+Sheet: Analisis
 
 Kategori	Nilai
 
@@ -91,5 +79,11 @@ Nilai Tertinggi	90
 Nilai Terendah	75
 
 
-Grafik
-(Diagram batang perbandingan nilai siswa akan muncul di Excel)
+Sheet: Grafik
+Diagram batang nilai siswa otomatis tampil di Excel.
+
+
+---
+
+🤝 Kontribusi
+
