@@ -34,7 +34,6 @@ hasil_analisis_keren.xlsx
 📂 Struktur Project
 
 .
-├── analisis.py          #kodePythonutama
-├── requirements.txt     # daftarlibrary
+├── analisis.py          # kode Python utama
+├── requirements.txt     # daftar library
 └── README.md            # dokumentasi
-
